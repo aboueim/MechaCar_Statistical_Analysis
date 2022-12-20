@@ -16,6 +16,9 @@ The linear model explains almost 70 percent of the variance in the dependent var
 
 
 
+![This is an image](Part2_results_totalsummary.png)
+![This is an image](Part2_results_lotsummary.png)
+
 
 
 ## T-Tests on Suspension Coils
