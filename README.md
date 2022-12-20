@@ -14,9 +14,14 @@ The linear model explains almost 70 percent of the variance in the dependent var
 
 ## Summary Statistics on Suspension Coils
 
+As shown below, the varaince calcualted for the entire dataset (Total Summary Table) is equal to 62.3 which is less than 100 and thus meets the specified design constrait. However, when we dig into the dataset by breaking that the anlaysis to specific lots, we realize that while lot 1 and lot 2 meet the desing consideration (variance of lot1 and lot equal to 0.98 and 7.47 respectively), variance of the suspension coils related to vehicle manufactured in lot3 are above 100 (variance = 170.29). That means, among the three lots, only lots 1 and 2 meet the design threshold.
 
+### Total Summary
 
 ![This is an image](Part2_results_totalsummary.png)
+
+### Lot Summary
+
 ![This is an image](Part2_results_lotsummary.png)
 
 
