@@ -28,15 +28,24 @@ As shown below, the varaince calcualted for the entire dataset (Total Summary Ta
 
 ## T-Tests on Suspension Coils
 
-In this part four different t-tests has been executed and the result are as below. H0: There is no difference between the mean of data and population mean. Alpha is 0.05.
+In this part four different t-tests has been executed and the result are as below. H0: There is no difference between the mean of data and population mean. Alpha = 0.05.
 
-T-test to see if there is a statistical difference between mean of the whole dataset (All manufacturer) and 1500 as the mean of population?
+The first t-test was run to compare the means between the entire cases in the dataset and the assumed population mean of 1500.
+As shown below, the null hypothesis of the equal mean value was not rejected (t = -1.8931, df = 149, p-value = 0.06028) under the 95 percent cofidence interval. That is, statistically, there is no significant difference between the dataset mean and 1500.
 
 ![This is an image](Part3_results_ttest.png)
 
+The second t-test was run to compare the means between PSI of the vehicles manufactured in lot1 and the assumed population mean of 1500.
+As shown below, the null hypothesis of the equal mean value was not rejected (t = 0, df = 49, p-value = 1) under the 95 percent cofidence interval. That is, statistically, there is no significant difference between the mean value of PSI related to vehicles manufacturted at lot1 are significantly different from the population mean value of 1500.
 
 ![This is an image](Part3_results_ttest_lot1.png)
 
+The third t-test was run to compare the means between PSI of the vehicles manufactured in lot2 and the assumed population mean of 1500.
+As shown below, the null hypothesis of the equal mean value was not rejected (t = 0.51745, df = 49, p-value = 0.6072) under the 95 percent cofidence interval. That is, statistically, there is no significant difference between the mean value of PSI related to vehicles manufacturted at lot2 and the population mean value of 1500.
+
 ![This is an image](Part3_results_ttest_lot2.png)
+
+The fourth t-test was run to compare the means between PSI of the vehicles manufactured in lot3 and the assumed population mean of 1500.
+As shown below, the null hypothesis of the equal mean value was rejected (t = -2.0916, df = 49, p-value = 0.04168) under the 95 percent cofidence interval. That is, statistically, the mean value of PSI related to vehicles manufacturted at lot3 are significantly different from the population mean value of 1500.
 
 ![This is an image](Part3_results_ttest_lot3.png)
