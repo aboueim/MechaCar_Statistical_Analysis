@@ -27,3 +27,16 @@ As shown below, the varaince calcualted for the entire dataset (Total Summary Ta
 
 
 ## T-Tests on Suspension Coils
+
+In this part four different t-tests has been executed and the result are as below. H0: There is no difference between the mean of data and population mean. Alpha is 0.05.
+
+T-test to see if there is a statistical difference between mean of the whole dataset (All manufacturer) and 1500 as the mean of population?
+
+![This is an image](Part3_results_ttest.png)
+
+
+![This is an image](Part3_results_ttest_lot1.png)
+
+![This is an image](Part3_results_ttest_lot2.png)
+
+![This is an image](Part3_results_ttest_lot3.png)
