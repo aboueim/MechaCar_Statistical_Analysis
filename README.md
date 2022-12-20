@@ -53,25 +53,16 @@ As shown below, the null hypothesis of the equal mean value was rejected (t = -2
 
 ## Study Design: MechaCar vs Competition
 
-From a consumer perspective, different measures may be relevant once evaluating a vehicle. Given my general knowledge on vehicles, I suggest three major factors including safety, fuel economy, and price to be included in a performance study. Vehicle safety indicates the extent to which a vehicle protects passengers in the case of an accident such a collision. A safety rating such as one proposed by the Insurance Institute for Highway Safety (IIHS) can be used to measure this factor. This rating focuses on crashworthiness and crash avoidance and mitigation and calculates an index score combining how well a vehicle protects the occupants in a collision and how well a vehicle can detect and prevent a crash or lessen its severity. Fuel economy sp
+From a consumer perspective, different measures may be relevant once evaluating a vehicle. Given my general knowledge on vehicles, I suggest three major factors including safety, fuel economy, and price to be included in a performance study. Vehicle safety indicates the extent to which a vehicle protects passengers in the case of an accident such a collision. A safety rating such as one proposed by the Insurance Institute for Highway Safety (IIHS) can be used to measure this factor. This rating focuses on crashworthiness and crash avoidance and mitigation and calculates an index score combining how well a vehicle protects the occupants in a collision and how well a vehicle can detect and prevent a crash or lessen its severity. Fuel economy specifies the fuel consumption of a vehicle given the distance traversed by that vehicle. A common metric for this indicator is liters/100 kilometer. Finally, price is an indicator of the market value of a vehicle which is measured based on the currency of the country at wwhich a vehicle is sold. All the three variables are numerical can be measured as continuous variables.
+
+To assess the competitiveness of MechaCar vs other competitors, I suggest the following design:
+
+1. Collect data on the suggested metrics from reliable sources such as car manufacturing companies or insurance insititutions.
+2. Compare the means on each factor between the vehicle groups (for example, manufactured by MechaCar vs. Competition). The results of t-tests on the three variables reveal whether a car manufacturing company outperforms others on each indicator. For example, if the result show that MechaCar vehicles scored significantly higher in terms of feul economy, it can be considered a an indicator of concern if the market leans toward vehicles with lower fuel consumptions.
+3. Once the between-group mean comparisons are done, 
 
 
 
-
-
-Cost
-This part include two different cost; Vehicle cost, maintenance cost. Here I choose to take into consideration a total cost of vehicle purchase and maintenance for 5 years and call it Cost
-
-Steps of the study:
-
-Collect market information including different manufacturers' vehicle and maintenance cost.
-Since cost is a numeric value, and we want to compare the mean cost of our products with the market mean, we can use one-sample t-test. The sample is the portfolio of our products, and the population is the vehicle market. We wish to offer more affordable options to our costumer so the H0 should be Our products Cost mean is not less than markets Cost mean.. Thus the test is a one-way test.
-We select our alpha. Here we can use the normal 0.05 as alpha.
-We should run the test and extract p-value.
-We need to compare the p-value with the alpha. The outcome and interpretation is like this:
-if P-value < 0.05, then H0 is rejected, and we can conclude With 95% confidence, our products cost less than market average.
-if P-value > 0.05, then there is not enough evidence to reject H0. Maybe with a higher alpha (lower confidence level) we can reject H0.
-Sum up
 What metric or metrics are you going to test?
 Cost: Vehicle cost + Maintenance cost for 5 years
 What is the null hypothesis or alternative hypothesis?
