@@ -53,27 +53,15 @@ As shown below, the null hypothesis of the equal mean value was rejected (t = -2
 
 ## Study Design: MechaCar vs Competition
 
-From a consumer perspective, different measures may be relevant once evaluating a vehicle. Given my general knowledge on vehicles, I suggest three major factors including safety, fuel economy, and price to be included in a performance study. Vehicle safety indicates the extent to which a vehicle protects passengers in the case of an accident such a collision. A safety rating such as one proposed by the Insurance Institute for Highway Safety (IIHS) can be used to measure this factor. This rating focuses on crashworthiness and crash avoidance and mitigation and calculates an index score combining how well a vehicle protects the occupants in a collision and how well a vehicle can detect and prevent a crash or lessen its severity. Fuel economy specifies the fuel consumption of a vehicle given the distance traversed by that vehicle. A common metric for this indicator is liters/100 kilometer. Finally, price is an indicator of the market value of a vehicle which is measured based on the currency of the country at wwhich a vehicle is sold. All the three variables are numerical can be measured as continuous variables.
+From a consumer perspective, different measures may be relevant once evaluating a vehicle. Given my general knowledge on vehicles and online research, I suggest three major factors including safety, fuel economy, and price to be included in a performance study. Vehicle safety indicates the extent to which a vehicle protects passengers in the case of an accident such a collision. A safety rating such as one proposed by the Insurance Institute for Highway Safety (IIHS) can be used to measure this factor. This rating focuses on crashworthiness and crash avoidance and mitigation and calculates an index score combining how well a vehicle protects the occupants in a collision and how well a vehicle can detect and prevent a crash or lessen its severity. Fuel economy specifies the fuel consumption of a vehicle given the distance traversed by that vehicle. A common metric for this indicator is liters/100 kilometer. Finally, price is an indicator of the market value of a vehicle which is measured based on the currency of the country at wwhich a vehicle is sold. All the three variables are numerical can be measured as continuous variables.
 
 To assess the competitiveness of MechaCar vs other competitors, I suggest the following design:
 
 1. Collect data on the suggested metrics from reliable sources such as car manufacturing companies or insurance insititutions.
-2. Compare the means on each factor between the vehicle groups (for example, manufactured by MechaCar vs. Competition). The results of t-tests on the three variables reveal whether a car manufacturing company outperforms others on each indicator. For example, if the result show that MechaCar vehicles scored significantly higher in terms of feul economy, it can be considered a an indicator of concern if the market leans toward vehicles with lower fuel consumptions.
-3. Once the between-group mean comparisons are done, 
+2. Compare the means on each factor between the vehicle groups (for example, manufactured by MechaCar vs. Competition). The results of t-tests on the three variables reveal whether a car manufacturing company outperforms others on each indicator. For example, if the result show that MechaCar vehicles scored significantly higher in terms of feul economy, it can be considered a an indicator of concern if the market leans toward vehicles with lower fuel consumptions. The null hypothesis for these comparisons are as below:
 
+H0: The true difference between the mean of MechaCar and Compeition on safety/fuel economy/price metrics is zero.
+  
+3. Once the between-group mean comparisons are done, a composite score (for example, weighted average of three variable values) can be calculated to offer a universal performance measure. A similar analysis can be performed while this time the composite score includes the impact of all three factors together. The null hypothesis for this comparison is as below:
 
-
-What metric or metrics are you going to test?
-Cost: Vehicle cost + Maintenance cost for 5 years
-What is the null hypothesis or alternative hypothesis?
-H0: Our products Cost mean is not less than markets Cost mean
-What statistical test would you use to test the hypothesis? And why?
-one-sample t-test, with 0.05 as alpha and one-way test.
-What data is needed to run the statistical test?
-We need below data for our products and other manufacturer products: Manufacturer, Vehicle Name (Optional), Vehicle Type (Optional), Vehicle Cost, Maintenance Cost for first 5 years.
-Safety
-We have to take some safety standard score into consideration. These scores can be numeric values in scale of 0-5 stars and if the scale is different, they can be converted. These scores should be collected for our vehicles and other manufacturers' vehicles. Again we have to use t-test to compare our score mean and market score mean.
-
-Performance
-For performance, we can use the different best practices since it can be a vast field to study. For example, by performance we might mean 0-100km time, maneuverability, braking performance, etc.
-
+H0: The true difference between the mean of MechaCar and Compeition on safety/fuel economy/price metrics is zero.
