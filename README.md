@@ -49,3 +49,40 @@ The fourth t-test was run to compare the means between PSI of the vehicles manuf
 As shown below, the null hypothesis of the equal mean value was rejected (t = -2.0916, df = 49, p-value = 0.04168) under the 95 percent cofidence interval. That is, statistically, the mean value of PSI related to vehicles manufacturted at lot3 are significantly different from the population mean value of 1500.
 
 ![This is an image](Part3_results_ttest_lot3.png)
+
+
+## Study Design: MechaCar vs Competition
+
+From a consumer perspective, different measures may be relevant once evaluating a vehicle. Given my general knowledge on vehicles, I suggest three major factors including safety, fuel economy, and price to be included in a performance study. Vehicle safety indicates the extent to which a vehicle protects passengers in the case of an accident such a collision. A safety rating such as one proposed by the Insurance Institute for Highway Safety (IIHS) can be used to measure this factor. This rating focuses on crashworthiness and crash avoidance and mitigation and calculates an index score combining how well a vehicle protects the occupants in a collision and how well a vehicle can detect and prevent a crash or lessen its severity. Fuel economy sp
+
+
+
+
+
+Cost
+This part include two different cost; Vehicle cost, maintenance cost. Here I choose to take into consideration a total cost of vehicle purchase and maintenance for 5 years and call it Cost
+
+Steps of the study:
+
+Collect market information including different manufacturers' vehicle and maintenance cost.
+Since cost is a numeric value, and we want to compare the mean cost of our products with the market mean, we can use one-sample t-test. The sample is the portfolio of our products, and the population is the vehicle market. We wish to offer more affordable options to our costumer so the H0 should be Our products Cost mean is not less than markets Cost mean.. Thus the test is a one-way test.
+We select our alpha. Here we can use the normal 0.05 as alpha.
+We should run the test and extract p-value.
+We need to compare the p-value with the alpha. The outcome and interpretation is like this:
+if P-value < 0.05, then H0 is rejected, and we can conclude With 95% confidence, our products cost less than market average.
+if P-value > 0.05, then there is not enough evidence to reject H0. Maybe with a higher alpha (lower confidence level) we can reject H0.
+Sum up
+What metric or metrics are you going to test?
+Cost: Vehicle cost + Maintenance cost for 5 years
+What is the null hypothesis or alternative hypothesis?
+H0: Our products Cost mean is not less than markets Cost mean
+What statistical test would you use to test the hypothesis? And why?
+one-sample t-test, with 0.05 as alpha and one-way test.
+What data is needed to run the statistical test?
+We need below data for our products and other manufacturer products: Manufacturer, Vehicle Name (Optional), Vehicle Type (Optional), Vehicle Cost, Maintenance Cost for first 5 years.
+Safety
+We have to take some safety standard score into consideration. These scores can be numeric values in scale of 0-5 stars and if the scale is different, they can be converted. These scores should be collected for our vehicles and other manufacturers' vehicles. Again we have to use t-test to compare our score mean and market score mean.
+
+Performance
+For performance, we can use the different best practices since it can be a vast field to study. For example, by performance we might mean 0-100km time, maneuverability, braking performance, etc.
+
