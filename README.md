@@ -4,11 +4,10 @@
 
 A linear model was created by entering five predicting variables including vehicle Length, vehicle weight, spoiler angle, ground clearance, AWD to predict vehicle's MPG. As shown below, the results of the multiple regression analysis indicate that two of the predictors, namely, vehicle length and ground clearance are significantly related to MPG (p-value < 0.001) while the other three predictors' relationship with MPG is nonsignificant. 
 
+The F-statistic (22.07) and p-value (<0.001) associated with the multiple regression model indicates the statistical significance of the overall model. That is, the slope of the linear model is significantly different from zero.
 
+The linear model explains almost 70 percent of the variance in the dependent variable (i.e., MPG) with R-Squared equalt to 0.71 and adjusted R-squared of 0.68. The observed results implies high predictive power of this model.
 
-R-Squared: 0.71, this means the model can predict an acceptable portion of MPG data points based on the independent variables that takedn into consideration.
-P-value: Almost 0, means H0 is rejected and at least one of the variables slope is not zero.
-Vehicle Weight, Spoiler Angle, and AWD are not statistically significant and can be neglected in next model.
 
 ![This is an image](Part1_results.png)
 
